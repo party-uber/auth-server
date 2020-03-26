@@ -1,10 +1,10 @@
-package App.controllers.auth;
+package App.controllers;
 
 import App.controllers.enums.AuthResponse;
 import App.entity.User;
 import App.jwt.TokenProvider;
 import App.logic.PasswordHelper;
-import App.models.auth.AuthorisationModel;
+import App.models.AuthorisationModel;
 import App.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -13,7 +13,6 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.core.annotation.AuthenticationPrincipal;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.server.ResponseStatusException;
 
 import javax.validation.Valid;
 import java.util.LinkedHashMap;

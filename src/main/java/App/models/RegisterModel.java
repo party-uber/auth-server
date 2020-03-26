@@ -1,4 +1,4 @@
-package App.models.auth;
+package App.models;
 
 import lombok.Data;
 
