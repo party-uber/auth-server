@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ec2-79-125-26-232.eu-west-1.compute.amazonaws.com
-    username: d1ssufbjh9j8ps
-    password: kunjqrrsnixtrk
+    url: ec2-54-217-204-34.eu-west-1.compute.amazonaws.com
+    username: xgurqxefofrfjn
+    password: 17157224e175ac1fa96b01af8008a216012c420f7ae31a2e499183eef8486473
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
